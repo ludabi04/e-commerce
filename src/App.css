@@ -1,4 +1,17 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+
+}
 .App {
-  text-align: right;
+  text-align: center;
 background-color: blue;
 }
