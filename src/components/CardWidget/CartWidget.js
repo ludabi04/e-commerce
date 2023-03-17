@@ -1,9 +1,8 @@
-const imagen = new Image();
-miImagen.src = "./assets/carrito.svg"
+import carrito from './assets/carrito.svg'
 const CartWidget = () => {
     return (
         <div>
-            <img src="./assets/carrito.svg" alt="" />
+            <img src={carrito} alt="" className='imagenCarrito' />
             0
         </div>
     )
