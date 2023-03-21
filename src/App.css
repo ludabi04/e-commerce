@@ -1,21 +1,69 @@
-nav {
-  display: flex;
-  flex-direction: column;
-}
-
-.navbar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  gap: 1rem;
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .App {
   text-align: center;
-background-color: skyblue;
+  background-color: skyblue;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  grid-template-areas: 
+  "titulo titulo titulo"
+  "nav nav carrito"
+  "body body body"
+  "footer footer footer";
 }
+
+.navbar {
+  grid-area: nav;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+
+.botonNavbar {
+  background-color: aqua;
+  border: .125rem solid black;
+  border-radius: 10px 10px;
+  width: auto;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+
+.titulo {
+  grid-area: titulo;
+  
+}
+
+.body {
+  grid-area: body;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.carrito {
+  grid-area: carrito;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+  
+}
+
 
 .imagenCarrito {
   width: 1rem;
+  padding-right: .5rem;
+  
+}
+
+.footer {
+  grid-area: footer;
+  background-color: skyblue;
 }
