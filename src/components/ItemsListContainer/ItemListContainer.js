@@ -1,10 +1,11 @@
 import './ItemListContainer.css'
 
 
-const ItemsListContainer = ({greeting}) => {
+const ItemsListContainer = (props) => {
     return (
         <div>
-            <h1>{greeting}</h1>
+            <h1>{props.saludo}</h1>
+            {props.children}
         </div>
 
     )

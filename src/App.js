@@ -20,7 +20,17 @@ function App() {
         <NavBar />
       </div>
       <div className='body'>
-        <ItemsListContainer greeting={"Bienvenidos!"}/>
+        <ItemsListContainer saludo={"Bienvenidos como va!"}>
+          <> 
+           <ul>
+            <li>Lista</li>
+            <li>Lista</li>
+            <li>Lista</li>
+           </ul>
+          </>
+        </ItemsListContainer>
+
+        
       </div>
       <div className='carrito'>
         <CartWidget />
