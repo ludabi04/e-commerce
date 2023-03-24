@@ -1,0 +1,20 @@
+.carritoCounter {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.imagenCarrito {
+    width: 1.5rem;
+    padding-right: .5rem;
+    
+  }
+  
+  .carrito {
+    grid-area: carrito;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+  }

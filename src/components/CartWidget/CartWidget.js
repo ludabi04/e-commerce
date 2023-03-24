@@ -1,11 +1,13 @@
 import carrito from './assets/carrito.svg'
+import './CartWidget.css'
+
 const CartWidget = () => {
     return (
-        <div>
+        <div className='carritoCounter'>
             <img src={carrito} alt="" className='imagenCarrito' />
-            0
+            <p>0 </p>
         </div>
     )
 }
 
-export default CartWidget
+export default CartWidget 
