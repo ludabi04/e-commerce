@@ -1,3 +1,6 @@
+import './ItemListContainer.css'
+
+
 const ItemsListContainer = ({greeting}) => {
     return (
         <div>

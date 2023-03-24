@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/navbar/NavBar';
-import ItemsListContainer from './components/ItemsListContainer/ItemsListContainer';
-import CartWidget from './components/CardWidget/CartWidget';
+import NavBar from './components/NavBar/navbar';
+import ItemsListContainer from './components/ItemListContainer/ItemListContainer';
+import CartWidget from './components/CartWidget/CartWidget';
 import Titulo from './components/Titulo/titulo';
 import Footer from './components/Footer/Footer';
 
