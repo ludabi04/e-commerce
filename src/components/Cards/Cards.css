@@ -1,0 +1,64 @@
+.botonComprar {
+    width: 20px;
+}
+
+.carritoCounter {
+    display: flex;
+    flex-direction: rox;
+    justify-content: center;
+    padding: 30px;
+    gap:10px
+
+} .fotoCarrito {
+    width: 30px;
+} .contadorCarrito {
+    font-size: 30px;
+}
+.plantillaCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.card {
+    width: 250px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+} img {
+    width: 40%;
+} p{
+    font-size: .8rem;
+ } 
+
+.carritoCompras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botonSuma, .botonResta {
+    align-self: center;
+    border: 0px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+.botonSuma:hover, .botonResta:hover {
+    text-shadow: 2px 2px 2px #000000;
+    align-self: center;
+    border: 0px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.imgCarrito {
+    width: 20px;
+}
